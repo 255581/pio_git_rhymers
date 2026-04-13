@@ -6,7 +6,14 @@ public class DefaultCountingOutRhymer {
     public static final int TOTAL_CAPACITY = 12;
     public static final int MAX_INDEX = 11;
     private final int[] numbers = new int[TOTAL_CAPACITY];
-    public int total = EMPTY_STACK_VALUE;
+
+
+
+    public int getTotal() {//dodanie get total
+        return total;
+    }
+
+    private int total = EMPTY_STACK_VALUE;
 
     public void countIn(int in) {
         if (!isFull())
