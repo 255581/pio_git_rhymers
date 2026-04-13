@@ -8,6 +8,7 @@ public class DefaultCountingOutRhymer {
     private final int[] numbers = new int[TOTAL_CAPACITY];
 
 
+
     public int getTotal() {//dodanie get total
         return total;
     }
