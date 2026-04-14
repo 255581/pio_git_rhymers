@@ -47,6 +47,6 @@ public class IntLinkedList {
         }
 
     }
-
+// projekt jest poprawny
 }
 
